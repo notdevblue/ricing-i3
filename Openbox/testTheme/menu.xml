@@ -111,6 +111,12 @@
   <separator label="System" />
   <menu id="system-menu"/>
 
+  <item label="AlsaMixer">
+    <action name="Execute">
+      <command>kitty alsamixer</command>
+    </action>
+  </item>
+  
   <!-- Power Settings -->
   <separator />
   <item label="Logoff">
