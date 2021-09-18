@@ -37,6 +37,7 @@
 
 * 필요한 것들
   * Tint2
+  * kitty
 
 * 있으면 좋은 것들
   * code(AUR)
