@@ -227,27 +227,27 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-F1">
+    <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="W-F2">
+    <keybind key="W-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="W-F3">
+    <keybind key="W-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="W-F4">
+    <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-d">
+    <keybind key="W-A-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
@@ -327,16 +327,20 @@
     </keybind>
 
     <!-- Keybindings written by Han -->
-    <keybind key="A-C-t"> 
+    <keybind key="A-C-t">
       <action name="Execute">
         <command>kitty</command>
       </action>
     </keybind>
 
-    <keybind key="A-d">
+    <keybind key="W-d">
       <action name="Execute">
         <command>rofi -show drun</command>
       </action>
+    </keybind>
+
+    <keybind key="W-S-q">
+      <action name="Close"/>
     </keybind>
 
   </keyboard>
