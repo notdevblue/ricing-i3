@@ -3,3 +3,4 @@ feh --bg-scale /$HOME/Documents/Wallpaper/wallpaper.png &
 /usr/bin/polkit-gnome/polkit-gnome-authentication-agent-1 &
 fcitx5 &
 xrandr --output eDP-1 --mode 1920x1080 --rate 144 --output HDMI-1-1 --mode 1920x1080 --rate 120 --right-of eDP-1 --gamma 0.8:0.8:0.8 &
+xcompmgr &
