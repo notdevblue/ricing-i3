@@ -42,3 +42,4 @@
 * 있으면 좋은 것들
   * code(AUR)
   * UnityHub <= menu.xml 에서 UnityHub.AppImage 위치를 수정해야 합니다.
+  * nvidia driver
