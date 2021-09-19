@@ -33,7 +33,7 @@
 ## testTheme
 ### 첫 Openbox rice
 
-![](https://cdn.discordapp.com/attachments/888797035468308550/888812002452062269/ss.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/889118168528875590/ss.png)
 
 * 필요한 것들
   * Tint2
