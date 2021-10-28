@@ -15,6 +15,8 @@
 * fcitx5
 * xrandr
 * rofi
+* xinput
+* gnome polkit
 
 * * *
 
@@ -38,6 +40,7 @@
 * 필요한 것들
   * Tint2
   * kitty
+  * openbox
 
 * 있으면 좋은 것들
   * code(AUR)
