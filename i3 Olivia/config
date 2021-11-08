@@ -21,6 +21,9 @@ exec xmodmap -e 'remove mod1 = Alt_R'
 exec xmodmap -e 'keycode 108 = Hangul'
 exec xmodmap -pke > ~/.Xmodmap
 
+# stop screen to go black
+exec xset s off && xset -dpms
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -46,11 +49,11 @@ exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 floating_modifier $mod
 
 # gaps
-for_window [class=".*"] border pixel 3 # disables upper text. more clean and gucci
+for_window [class=".*"] border pixel 0 # disables upper text. more clean and gucci
 # smart_gaps on
-gaps inner 8
+gaps inner 10
 gaps outer 5
-border_radius 3
+border_radius 6
 
 # start a terminal
 bindsym $mod+Return exec kitty
