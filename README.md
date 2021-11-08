@@ -46,3 +46,19 @@
   * code(AUR)
   * UnityHub <= menu.xml 에서 UnityHub.AppImage 위치를 수정해야 합니다.
   * nvidia driver
+
+* * *
+## Neroism
+### 네다씹
+
+![](https://cdn.discordapp.com/attachments/888797035468308550/907316958901436416/Neorism1-0.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/907316970754543656/Neroism.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/907318039266099310/Neorism1-2-0.png)
+
+* 필요한 것들
+  * Bumblebee-status
+  * i3-gaps-rounded
+
+* 있으면 좋은 것들
+  * cava
+  * BetterDiscord w/ transparent theme
