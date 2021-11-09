@@ -53,6 +53,8 @@ for_window [class=".*"] border pixel 0 # disables upper text. more clean and guc
 # smart_gaps on
 gaps inner 10
 gaps outer 5
+#gaps inner 200
+#gaps outer 100
 border_radius 6
 
 # start a terminal
@@ -201,22 +203,32 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        font pango: Noto Sans CJK KR Mono 8
-        status_command /home/$USER/bumblebee-status/bumblebee-status \
-		-m date time battery \
-		-p time.format="%H:%M" date.format="%m%d" \
-		
+	status_command i3status
+	i3bar_command i3bar --transparency
+        
+	font pango: Ubuntu Mono Italic 10
+	
+	tray_output none
+
+	bindsym button1 nop
+	separator_symbol "<<"
+
+#        status_command /home/$USER/bumblebee-status/bumblebee-status \
+#		-m date time battery \
+#		-p time.format="%H:%M" date.format="%m%d" \
+
+
 	position top
 	colors {
-		# bar color (based on Kairiki bear - Naroism)
+#		# bar color (based on Kairiki bear - Naroism)
 		separator #010157
-		background #AEC4F3
+		background #AEC4F300
 		statusline #010157
-				   #Border #BG     #Text
-		focused_workspace  #AEC4F3 #AEC4F3 #010157
-		active_workspace   #AEC4F3 #AEC4F3 #A09FC0
-		inactive_workspace #AEC4F3 #AEC4F3 #A09FC0
-		urgent_workspace   #F3BCF3 #F3BCF3 #010157
+#				   #Border #BG     #Text
+		focused_workspace  #AEC4F3 #AEC4F300 #010157
+		active_workspace   #AEC4F3 #AEC4F300 #A09FC0
+		inactive_workspace #AEC4F3 #AEC4F300 #A09FC0
+		urgent_workspace   #F3BCF3 #F3BCF300 #010157
 	 }
 }
 
