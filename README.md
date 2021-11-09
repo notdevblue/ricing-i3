@@ -56,8 +56,9 @@
 ![](https://cdn.discordapp.com/attachments/888797035468308550/907318039266099310/Neorism1-2-0.png)
 
 * 필요한 것들
-  * Bumblebee-status
+  * i3status
   * i3-gaps-rounded
+  * Ubuntu Fonts
 
 * 있으면 좋은 것들
   * cava
