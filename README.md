@@ -1,10 +1,9 @@
 # Dotfiles
 #### 만약 겜마고의 누군가가 나처럼 리눅스를 사용한다면...<br>
 
-* * *
 
-### 전부 Arch 에서 작성하고 테스트한 코드들입니다.
-### Debian 기반에서는 테스트 안 해봄.
+<details>
+ <summary><b>Tested on Arch linux</b></summary>
 
 * * *
 
@@ -63,3 +62,5 @@
 * 있으면 좋은 것들
   * cava
   * BetterDiscord w/ transparent theme
+                       
+</details>
