@@ -4,6 +4,7 @@
 
 <details>
  <summary><b>Tested on Arch linux</b></summary>
+ 
 
 * * *
 
@@ -19,6 +20,10 @@
 
 * * *
 
+ <details>
+  <summary>i3 Olivia</summary>
+  
+  
 ## i3 Olivia
 ### GMK Olivia 키캡 기반으로 만들어 본 첫 Rice
 
@@ -29,8 +34,13 @@
   * i3lock
   * i3-gaps-rounded
 
+  </details>
+  
 * * *
-
+ 
+<details>
+ <summary>Openbox test rice</summary>
+ 
 ## testTheme
 ### 첫 Openbox rice
 
@@ -46,7 +56,14 @@
   * UnityHub <= menu.xml 에서 UnityHub.AppImage 위치를 수정해야 합니다.
   * nvidia driver
 
+</details>
+                       
 * * *
+ 
+ <details>
+  <summary>i3 Neroism</summary>
+  
+  
 ## Neroism
 ### 네다씹
 
@@ -63,4 +80,5 @@
   * cava
   * BetterDiscord w/ transparent theme
                        
+ </details>
 </details>
