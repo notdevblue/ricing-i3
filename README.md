@@ -82,3 +82,14 @@
                        
  </details>
 </details>
+
+ * * *
+ 
+ <details>
+  <summary><b>Tested On Gentoo Linux</b></summary>
+  
+  comming soon...
+  
+  
+ </details>
+ 
