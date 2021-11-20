@@ -88,7 +88,8 @@
  <details>
   <summary><b>Tested On Gentoo Linux</b></summary>
   
-  comming soon...
+  ### xinitrc
+  just backup file
   
   
  </details>
