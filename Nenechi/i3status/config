@@ -1,0 +1,28 @@
+general {
+	output_format = "i3bar"
+	colors = false
+	interval = 60
+}
+
+
+order += "wireless wlan0"
+order += "battery 0"
+order += "tztime local"
+
+tztime local {
+        format = "%m%d %H%M  "
+}
+
+battery 0 {
+	format = "%status %percentage"
+	status_chr = "line"
+	status_bat = "link"
+	status_unk = "battery"
+	last_full_capacity = true
+	status_full = "full"
+}
+
+wireless wlan0 {
+	format_up = "wlan0: %ip"
+	format_down = "wlan0: down"
+}
