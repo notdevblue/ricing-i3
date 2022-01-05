@@ -82,6 +82,29 @@
                        
  </details>
 </details>
+ 
+ <details>
+  <summary>i3 Persona</summary>
+  
+  
+## Persona
+### 페르소나 최고
+
+![](https://cdn.discordapp.com/attachments/888797035468308550/928301871108587560/persona1.png)
+
+* 필요한 것들
+  * tint2
+  * i3-gaps-rounded
+  * Ubuntu Fonts
+
+* 있으면 좋은 것들
+  * cava
+  * kitty
+  * ranger
+  * BetterDiscord w/ transparent theme
+                       
+ </details>
+</details>
 
  * * *
  
