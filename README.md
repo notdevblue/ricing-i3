@@ -1,9 +1,5 @@
 # Dotfiles
 #### 만약 겜마고의 누군가가 나처럼 리눅스를 사용한다면...<br>
-
-
-<details>
- <summary><b>Tested on Arch linux</b></summary>
  
 
 * * *
@@ -81,7 +77,8 @@
   * BetterDiscord w/ transparent theme
                        
  </details>
-</details>
+
+ * * *
  
  <details>
   <summary>i3 Persona</summary>
@@ -104,16 +101,31 @@
   * BetterDiscord w/ transparent theme
                        
  </details>
-</details>
-
+ 
  * * *
  
  <details>
-  <summary><b>Tested On Gentoo Linux</b></summary>
-  
-  ### xinitrc
-  just backup file
+  <summary>i3 Rain</summary>
   
   
+## Rain
+### 2일의 걸친 Distro Hopping 후 다시 아치 리눅스 우앱
+
+![](https://cdn.discordapp.com/attachments/888797035468308550/931925619384676424/rain2.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/931925690914320404/rain1.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/931926641431699486/rain3.png)
+![](https://cdn.discordapp.com/attachments/888797035468308550/931926640391503902/rain4.png)
+
+* 필요한 것들
+  * tint2
+  * i3-gaps
+  * Ubuntu Fonts
+
+* 있으면 좋은 것들
+  * cava
+  * kitty
+  * ranger
+  * BetterDiscord w/ transparent theme
+  * cbonsai
+                       
  </details>
- 
