@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec mpv "https://soundcloud.com/dzcnczlv19sy/sets/lofi-hip-hop" --no-video

@@ -1,0 +1,5 @@
+#!/bin/bash
+xinput float 12 &
+xinput float 13 &
+xinput float 27 &
+echo "Keyboard disabled." &

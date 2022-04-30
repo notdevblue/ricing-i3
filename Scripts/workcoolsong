@@ -1,0 +1,2 @@
+#!/bin/bash
+exec mpv "https://www.youtube.com/playlist?list=PLAweZNSC5bk94GPCjnyN8shjCkkgLIjNQ" --no-video

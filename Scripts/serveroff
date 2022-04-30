@@ -1,0 +1,4 @@
+#!/bin/bash
+
+exec rc-service mysql stop &
+exec rc-service apache2 stop &
