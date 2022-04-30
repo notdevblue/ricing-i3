@@ -69,7 +69,7 @@ bindsym $mod+d exec rofi -show drun
 exec picom
 
 # feh
-exec feh --bg-scale /$HOME/Wallpapers/IMG_0380.jpg
+exec feh --bg-fill /$HOME/Wallpapers/IMG_0380.jpg
 
 # tint2
 #exec tint2
@@ -80,7 +80,7 @@ exec blueman-applet
 # change focus
 #bindsym $mod+j focus left
 #bindsym $mod+k focus down
-bindsym $mod+l exec i3lock-fancy
+bindsym $mod+l exec betterlockscreen -l blur
 #bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
@@ -189,10 +189,10 @@ bar {
         statusline #201e24FF
         background #00000000
 
-        focused_workspace  #201e24FF #00000000 #d3d3d3FF
-        active_workspace   #201e24FF #00000000 #d3d3d3FF
-        inactive_workspace #201e24FF #00000000 #d3d3d3FF
-        urgent_workspace   #201e24FF #00000000 #d3d3d3FF
+        focused_workspace  #201e2400 #00000000 #d3d3d3FF
+        active_workspace   #201e2400 #00000000 #d3d3d3FF
+        inactive_workspace #201e2400 #00000000 #d3d3d3FF
+        urgent_workspace   #201e2400 #00000000 #d3d3d3FF
     }
 }
 
