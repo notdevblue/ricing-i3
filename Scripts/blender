@@ -1,0 +1,3 @@
+#!/bin/sh
+printf "Executing Blender...\r\n";
+exec prime-run /home/han/Binarys/blender-git/build_linux/bin/blender

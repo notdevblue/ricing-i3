@@ -1,0 +1,4 @@
+#!/bin/bash
+clear;
+printf "Executing Molu\r\n\r\n";
+exec mpv "https://www.youtube.com/watch?v=o1Lz2FID6YU&ab_channel=%EC%9D%B4%EB%AA%85%EC%A3%BC" --no-video
