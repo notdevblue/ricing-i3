@@ -1,0 +1,4 @@
+#!/bin/bash
+
+exec xinput --set-prop 10 298 0, 1
+exec xinput --set-prop 10 295 0
