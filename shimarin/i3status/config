@@ -1,0 +1,27 @@
+general {
+	output_format = "i3bar"
+	colors = false
+	interval = 30
+}
+
+order += "read_file prefix"
+order += "memory"
+order += "load"
+order += "tztime local"
+
+memory {
+	format = "used %used out of %available"
+}
+
+load {
+	format = "CPU: %1min%"
+}
+
+tztime local {
+	format = "T: %m%d %H %M "
+}
+
+read_file prefix {
+	format = "Gentoo Linux"
+	path = "/proc/version"
+}
